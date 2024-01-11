@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "ds": "yarn workspace @monorepo/design-system",
+    "service": "yarn workspace @monorepo/service"
+  },
   "devDependencies": {
     "typescript": "^5.3.3"
   }
